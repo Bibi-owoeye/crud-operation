@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametarized operation</title>
+</head>
+
+<body>
+    <!-- <button onclick="bibi()">Bibi</button>
+    <button onclick="yode()">Yode</button>
+    <button onclick="tboy()">T-boy</button> -->
+
+    <button onclick="jsStudents( 'Bibi', 90,9000000, false)">Bibi</button>
+    <button onclick="jsStudents('Yode', 92,90000000, true)">Yode</button>
+    <button onclick="jsStudents('T-boy', 91,900000000, true)">T-boy</button>
+    <div id="show"></div>
+
+    <script>
+
+        function jsStudents(a, b, c, d) {
+            show.innerHTML += `My name is ${a} and i am ${b} years old ,My account balance is ${c} and it is ${d} that i am tall <br>`;
+        }
+    </script>
+
+    <script>
+        function bibi() {
+            console.log('Bolu');
+        }
+        function yode() {
+            console.log('Yode');
+        }
+        function tboy() {
+            console.log('T-boy');
+        }
+    </script>
+</body>
+
+</html>
