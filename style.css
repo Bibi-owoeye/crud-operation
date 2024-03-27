@@ -5,9 +5,12 @@
 
 }
 .each{
-    height: 300px;
+    /* height: 400px; */
 
 }
 #show{
     text-align: -webkit-center !important;
+}
+#todo, #newTodo ,#todoDes{
+    text-transform: capitalize;
 }
